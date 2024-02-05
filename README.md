@@ -7,6 +7,7 @@ This Data analysis aims to generate insight into the sales performance of the E 
 ## Data Sources
 The primary source of Data used here from SkilHarvest Stationary Supplies.csv was shared during the training program
 
+
 ## Tools Used
 - The tool used for the analysis is the Google Query Sheet
 
