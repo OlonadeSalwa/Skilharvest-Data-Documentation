@@ -61,6 +61,24 @@ The insight gotten from the analysis are shown below
 
 ---
 
+![](ASSIGNMENT2.PNG)
+
+---
+
+![](ASSIGNMENT3.PNG)
+
+---
+
+![](ASSIGNMENT4.PNG)
+
+---
+
+![](ASSIGNMENT5.PNG)
+
+---
+
+
+
 
 
 
