@@ -66,26 +66,31 @@ WHERE C LIKE'%sk'", 1)
 The insight gotten from the analysis are shown below
 
 ![](ASSIGNMENT1.PNG)
+
 The above image shows the sales of binder, item and pencil in 2015
 
 ---
 
 ![](ASSIGNMENT2.PNG)
+
 The above image shows the sales in cental and east region in 2014
 
 ---
 
 ![](ASSIGNMENT3.PNG)
+
 The above image shows the sales in August and September 2014
 
 ---
 
 ![](ASSIGNMENT4.PNG)
+
 The above image shows item that start with 'Pen', incudeing the region, sales rep and year
 
 ---
 
 ![](ASSIGNMENT5.PNG)
+
 The above image shows itens that end with 'sk', including the region, sales rep and year
 
 
