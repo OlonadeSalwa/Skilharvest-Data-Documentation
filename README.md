@@ -1,15 +1,15 @@
-# Skilharvest-Data-Documentation
+# Skilharvest-Data-Documentation on Power Query
 
 ## Project Overview
 
 This Data analysis aims to generate insight into the sales performance of the E commerce project over the past year. By analysing the various parameters in the data received, we seek to gather enough insight to make reasonable decisions which then enable us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
 
 ## Data Sources
-The primary source of Data used here from SkilHarvest Stationary Supplies.csv was shared during the training program
+The primary source of Data used here from SkilHarvest Stationary Supplies.csv was shared during the training program [HERE](https://docs.google.com/spreadsheets/d/1uX1rfxA6Sxsukiy-cWzWs04Sr9_O8bforyHDfuSy_C8/edit?pli=1#gid=476863967)
 
 
 ## Tools Used
-- The tool used for the analysis is the Google Query Sheet
+- The tool used for the analysis is the Google Query Sheet [DOWNLOAD HERE](https://docs.google.com/spreadsheets)
 
 ## Data Cleaning and Preparation
 
@@ -22,37 +22,44 @@ Exploratory Data Analysis involve exploring the data to answer some question abo
 
 ## Data Analysis
 These are the query used to answer the above questions
----
-Google Query Sheet
----
 
-=QUERY(A:H, "SELECT C,F,H WHERE (C='Binder' OR C='Pencil') AND F=2015", 1)
+## Google Query 
 
----
+```
+QUERY(A:H,
+"SELECT C,F,H
+WHERE (C='Binder' OR C='Pencil') AND F=2015", 1)
+```
 
----
+```
+=QUERY(A:H,
+"SELECT C,F,H
+WHERE (C='Binder' OR C='Pencil') AND F=2015", 1)
+```
 
-=QUERY(A:H, "SELECT A,F,H WHERE (A='Central' OR A='East') AND F=2014", 1)
+```
+=QUERY(A:H,
+"SELECT A,F,H
+WHERE (A='Central' OR A='East') AND F=2014", 1)
+```
 
----
+```
+=QUERY(A:H,
+"SELECT E,F,H
+WHERE (E='Aug' OR E='Sep') AND F=2014", 1)
+```
 
----
+```
+=QUERY(A:H,
+"SELECT A,B,C,F,H
+ WHERE C LIKE 'Pen%'", 1)
+```
 
-=QUERY(A:H,"SELECT E,F,H WHERE (E='Aug' OR E='Sep') AND F=2014", 1)
-
----
-
----
-
-=QUERY(A:H, "SELECT A,B,C,F,H WHERE C LIKE 'Pen%'", 1)
-
----
-
----
-
-=QUERY(A:H,"SELECT A,B,C,F,H WHERE C LIKE'%sk'", 1)
-
----
+```
+=QUERY(A:H,
+"SELECT A,B,C,F,H
+WHERE C LIKE'%sk'", 1)
+```
 
 ## Results/Findings
 
